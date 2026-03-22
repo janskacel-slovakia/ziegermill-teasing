@@ -763,14 +763,14 @@ export default function Home() {
           <FadeInSection>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-24 items-center">
               
-              <div className="order-2 lg:order-1 lg:col-span-2 relative w-full h-[300px] sm:h-[450px] bg-stone-200 shadow-xl border-4 border-stone-100 rounded-2xl overflow-hidden">
+              <div className="order-2 lg:order-1 lg:col-span-2 relative w-full aspect-video bg-stone-200 shadow-xl border-4 border-stone-100 rounded-2xl overflow-hidden">
                 {/* OPTIMIZED HISTORY IMAGE */}
                 <Image 
-                  src="/history.png" 
+                  src="/history.jpg" 
                   alt="Historical photo" 
                   fill
                   sizes="(max-width: 1024px) 100vw, 66vw"
-                  className="object-cover grayscale sepia-[.3]" 
+                  className="object-contain grayscale sepia-[.3]" 
                 />
                 <div className="absolute inset-0 bg-stone-900/10 mix-blend-multiply pointer-events-none"></div>
               </div>
