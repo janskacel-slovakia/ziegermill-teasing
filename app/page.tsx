@@ -339,7 +339,7 @@ export default function Home() {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: 'mapbox://styles/janskacel/cmmutgfuo00ac01s9cznqfnaa', 
-      center: [17.0950, 48.1250],
+      center: [17.0950, 48.1240],
       zoom: 15.5, 
       pitch: 75, 
       bearing: 15, 
